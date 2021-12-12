@@ -16,7 +16,6 @@
 <link rel="icon" type="image/png" sizes="32x32" href="IMG/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="IMG/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="style.css">
     <title>Rohit Portfolio</title>
 </head>
@@ -69,9 +68,9 @@
                     <main>
                      <section class="about" id="about-me">
                          <div  class="container">
-                            <h1 class="wow slideInLeft animated">About</h1>
+                            <h1>About</h1>
                              <div class="row">
-                                 <div class="col-md-8  my-2">
+                                 <div class="col-md-8  my-2 ani" >
                                     <p>My name is Rohit Pant and I am Front End Developer from Uttarakhand India.I like to create responsive websites along with creative user interface,I have 6-8 month experience in Front End Development.I can create front end of a website according your requirements,currently I am learning new front end technology's to enhance my skills.If you are looking for a <span>Front End Developer</span> to add to your team,I'd love to hear from you. </p>
                                  </div>
 
@@ -521,7 +520,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
 <script>
+    
 let preloder=document.querySelector(".preloder");
 let body=document.querySelector(".full-content");
 let bar=document.querySelector(".fa-bars");
@@ -551,10 +553,6 @@ bar.onclick=function() {
     nav.classList.toggle("toggle");
 }
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script>
-    new WOW().init();
-    </script>
 </body>
 </html>
 
