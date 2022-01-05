@@ -136,7 +136,7 @@ header nav .nav-link:hover{
 
 
 .about-me{   
-  background-image:linear-gradient(rgba(0,0,0,0.8),rgb(20, 20, 20)),url("https://getwallpapers.com/wallpaper/full/2/8/0/1172847-free-developer-wallpaper-hd-1920x1080-for-computer.jpg");
+  background-image:linear-gradient(rgba(0,0,0,0.8),rgb(20, 20, 20)),url("https://www.holidify.com/images/bgImages/DEHRADUN.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -147,6 +147,7 @@ header nav .nav-link:hover{
   margin-top:0px;
   padding: 0px 20px;
   position: relative;
+  background-attachment: fixed;
 
 }
 
@@ -755,12 +756,7 @@ background-color:#161b21;
     
 }
 
-.projects .row{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
-    grid-gap:20px;
-    padding: 30px 15px;
-}
+
 .projects h1{
     font-size: 4rem;
     padding-bottom:10px;
@@ -814,13 +810,25 @@ background-color:#161b21;
 .projects .pro{
     border-radius: 10px;
     padding: 20px;
-    cursor: pointer;
+    cursor: grab;
     background-color:#161b21;
     position: relative;
     overflow: hidden;   
+    height: 450px;
     
 }
 
+
+#lpage .row, #app .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-gap:20px;
+}
+
+#lpage .row .pro, #app .row .pro{
+    height: auto;
+}
 
 .projects .pro:hover{
         background-image: linear-gradient(
@@ -1099,6 +1107,22 @@ div.event::after {
 
 html, body { font-family: arial, sans-serif; }
 
+/* swiper */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom:50px;
+  }
+
+  .swiper-slide {
+    max-width: 300px;
+    height: 500px;
+  }
+
+  .swiper-wrapper{
+      height: 100%;
+  }
+
 
 @keyframes scroll{
     0%{
@@ -1286,6 +1310,16 @@ header.stick li a:hover{
       flex-direction: column;
     }
 
+    .projects .pro{
+        border-radius: 10px;
+        padding: 20px;
+        cursor: grab;
+        background-color:#161b21;
+        position: relative;
+        overflow: hidden;   
+        height: 350px;
+        
+    }
 
 }
 
@@ -1295,7 +1329,9 @@ header.stick li a:hover{
             font-size: 50%;
         }
 
-  
+        .swiper{
+           height: 450px;
+        }
 
 
 }
