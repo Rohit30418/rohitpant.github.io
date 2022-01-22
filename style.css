@@ -291,7 +291,6 @@ header nav .nav-link:hover{
         background-size: 100%;
         background-repeat: repeat;
         color:#161b21;
-
 }
 
 .btn:hover span{
@@ -510,12 +509,13 @@ header .fa-bars{
 .skills .li-1{
     position: relative;
     background-color:#161b21;
+    overflow: hidden;
 }
 
 .skills .li-1::before{
     content: 'HTML-5';
     background-image: linear-gradient(
-        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6e27a 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
         background-size: 100%;
         background-repeat: repeat;
     position: absolute;
@@ -527,16 +527,29 @@ header .fa-bars{
     font-weight: bold;
 }
 
+.skills .li-1::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    transform: rotate(45deg);
+   background-color: white;
+   filter: blur(10px);
+   animation: skill1 3s linear infinite forwards;
+}
+
 .skills .li-2{
     position: relative;
     background-color:#161b21;
+    overflow: hidden;
 }
 
 .skills .li-2::before{
     content: 'CSS-3';
     position: absolute;
     background-image: linear-gradient(
-        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6e27a 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
         background-size: 100%;
         background-repeat: repeat;
     height: 100%;
@@ -549,16 +562,29 @@ header .fa-bars{
 }
 
 
+.skills .li-2::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    transform: rotate(45deg);
+   background-color: white;
+   filter: blur(10px);
+   animation: skill2 3s linear infinite forwards;
+}
+
 .skills .li-3{
     position: relative;
     background-color:#161b21;
+    overflow: hidden;
 }
 
 .skills .li-3::before{
     content: 'SASS';
     position: absolute;
     background-image: linear-gradient(
-        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6e27a 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
         background-size: 100%;
         background-repeat: repeat;
     height: 100%;
@@ -571,16 +597,29 @@ background-color:#161b21;
 }
 
 
+.skills .li-3::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    transform: rotate(45deg);
+   background-color: white;
+   filter: blur(10px);
+   animation: skill3 3s linear infinite forwards;
+}
+
 .skills .li-4{
 position: relative;
 background-color:#161b21;
+overflow: hidden;
 }
 
 .skills .li-4::before{
     content: 'BOOTSTARP';
     position: absolute;
     background-image: linear-gradient(
-        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6e27a 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
         background-size: 100%;
         background-repeat: repeat;
     height: 100%;
@@ -592,17 +631,29 @@ background-color:#161b21;
 background-color:#161b21;
 }
 
+.skills .li-4::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    transform: rotate(45deg);
+   background-color: white;
+   filter: blur(10px);
+   animation: skill4 3s linear infinite forwards;
+}
 
 .skills .li-5{
     position: relative;
 background-color:#161b21;
+overflow: hidden;
 }
 
 .skills .li-5::before{
     content: 'JAVASCRIPT';
     position: absolute;
     background-image: linear-gradient(
-        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6e27a 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
         background-size: 100%;
         background-repeat: repeat;
     height: 100%;
@@ -614,16 +665,29 @@ background-color:#161b21;
 background-color:#161b21;
 }
 
+.skills .li-5::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    transform: rotate(45deg);
+   background-color: white;
+   filter: blur(10px);
+   animation: skill5 3s linear infinite forwards;
+}
+
 .skills .li-6{
     position: relative;
 background-color:#161b21;
+overflow: hidden;
 }
 
 .skills .li-6::before{
     content: 'GIT';
     position: absolute;
     background-image: linear-gradient(
-        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6f2c0 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
+        to right,#462523 0,#cb9b51 22%, #f6e27a 45%,#f6e27a 50%,#f6e27a 55%,#cb9b51 78%,#462523 100%);
         background-size: 100%;
         background-repeat: repeat;
     height: 100%;
@@ -635,6 +699,17 @@ background-color:#161b21;
 background-color:#161b21;
 }
 
+.skills .li-6::after{
+    content: '';
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 15px;
+    transform: rotate(45deg);
+   background-color: white;
+   filter: blur(10px);
+   animation: skill6 3s linear infinite forwards;
+}
 .skills img{
  width: 50px;
 }
@@ -701,8 +776,29 @@ background-color:#161b21;
     text-align: center;
     color: rgb(255, 255, 255); 
     transition: .5s;
-    background-color:#161b21;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+    padding: 5px;
      
+}
+
+.myservices>div::before{
+content: "";
+position: absolute;
+background-color:#161b21;
+width: 100%;
+height: 100%;
+z-index: -1;
+left: 0px;
+top:0px;
+border-radius: 10px;
+transition: .5s;
+}
+
+.myservices>div:hover::before{
+    transform: translateY(100%);
 }
 
 .myservices>div:nth-child(2n){
@@ -816,6 +912,7 @@ background-color:#161b21;
     position: relative;
     overflow: hidden;   
     height: 450px;
+    border: 1px solid white;
     
 }
 
@@ -1057,7 +1154,20 @@ div.event {
   position: relative;
   border-radius: 6px;
   margin-bottom: 20px;
+  border: 1px solid white;
+  transition: 0.5s;
 }
+
+div.event:nth-of-type(even){
+    animation: eduani 3s linear infinite forwards;
+    background-color: transparent;  
+}
+
+div.event:nth-of-type(odd){
+    animation: eduani2 3s linear infinite forwards;
+}
+
+
 
 
 strong.edate {
@@ -1097,17 +1207,7 @@ div.event::before {
   left: -10px;
 }
 
-div.event::after {
-  content: '';
-  background: #fff;
-  border: 4px solid #c0c0c0;
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-  position: absolute;
-  top: 20%;
-  left: -44px;
-}
+
 
 html, body { font-family: arial, sans-serif; }
 
@@ -1131,6 +1231,101 @@ html, body { font-family: arial, sans-serif; }
       background-color: white;
   }
 
+
+
+  @keyframes skill1{
+    0%{
+        left: -10px;
+    }
+    
+    100%{
+        left: 78%;
+    }
+}
+
+@keyframes skill2{
+  0%{
+      left: -10px;
+  }
+  
+  100%{
+      left: 77%;
+  }
+
+}
+
+@keyframes skill3{
+    0%{
+        left: -10px;
+    }
+    
+    100%{
+        left: 75%;
+    }
+}
+
+@keyframes skill4{
+  0%{
+      left: -10px;
+  }
+  
+  100%{
+      left: 60%;
+  }
+
+}
+
+@keyframes skill5{
+    0%{
+        left: -10px;
+    }
+    
+    100%{
+        left: 50%;
+    }
+  
+  }
+
+  @keyframes skill6{
+    0%{
+        left: -10px;
+    }
+    
+    100%{
+        left: 25%;
+    }
+  
+  }
+
+  
+/* education animation */
+  @keyframes eduani {
+      0%{
+        transform: perspective(800px) rotateY(10deg); 
+    
+      }
+      50%{
+        transform: perspective(800px) rotateY(-10deg);
+      }
+     
+      100%{
+        transform: perspective(800px) rotateY(10deg);    
+      }
+  }
+
+  @keyframes eduani2 {
+    0%{
+      transform: perspective(800px) rotateY(-10deg);  
+
+    }
+    50%{
+      transform: perspective(800px) rotateY(10deg);
+    }
+   
+    100%{
+      transform: perspective(800px) rotateY(-10deg);  
+    }
+}
 
 @keyframes scroll{
     0%{
@@ -1199,7 +1394,7 @@ html, body { font-family: arial, sans-serif; }
 
 
 
-@media(max-width:800px){
+@media(max-width:992px){
     html{
         font-size: 58%;
     }
