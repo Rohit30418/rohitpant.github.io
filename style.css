@@ -431,16 +431,7 @@ border-radius: 10px;
     padding: 30px 15px 60px;
 }
 
-main{
-    position: relative;
-}
 
-#particles-js{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index:1;
-}
 
 .about h1{
     font-size: 4rem;
@@ -861,8 +852,7 @@ transition: .5s;
 .projects{
     padding: 50px 0px;
     background-color: transparent;
-    position: relative;
-    z-index: 2;
+
 
     
 }
