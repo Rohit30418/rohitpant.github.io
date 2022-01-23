@@ -20,8 +20,9 @@ body,html{
     box-sizing: border-box;
 }
 
+
 main{
-    background-color: #292826;
+    background-color: rgb(20, 20, 20);
 }
 
 body::-webkit-scrollbar{
@@ -430,6 +431,17 @@ border-radius: 10px;
     padding: 30px 15px 60px;
 }
 
+main{
+    position: relative;
+}
+
+#particles-js{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index:1;
+}
+
 .about h1{
     font-size: 4rem;
     margin-bottom: 30px;
@@ -532,7 +544,7 @@ header .fa-bars{
     background-color: white;
     position: absolute;
     height: 100%;
-    width: 15px;
+    width: 10px;
     transform: rotate(45deg);
    background-color: white;
    filter: blur(10px);
@@ -567,10 +579,10 @@ header .fa-bars{
     background-color: white;
     position: absolute;
     height: 100%;
-    width: 15px;
+    width: 10px;
     transform: rotate(45deg);
    background-color: white;
-   filter: blur(10px);
+   filter: blur(8px);
    animation: skill2 3s linear infinite forwards;
 }
 
@@ -602,10 +614,10 @@ background-color:#161b21;
     background-color: white;
     position: absolute;
     height: 100%;
-    width: 15px;
+    width: 10px;
     transform: rotate(45deg);
    background-color: white;
-   filter: blur(10px);
+   filter: blur(8px);
    animation: skill3 3s linear infinite forwards;
 }
 
@@ -636,10 +648,10 @@ background-color:#161b21;
     background-color: white;
     position: absolute;
     height: 100%;
-    width: 15px;
+    width: 10px;
     transform: rotate(45deg);
    background-color: white;
-   filter: blur(10px);
+   filter: blur(8px);
    animation: skill4 3s linear infinite forwards;
 }
 
@@ -670,10 +682,10 @@ background-color:#161b21;
     background-color: white;
     position: absolute;
     height: 100%;
-    width: 15px;
+    width: 10px;
     transform: rotate(45deg);
    background-color: white;
-   filter: blur(10px);
+   filter: blur(8px);
    animation: skill5 3s linear infinite forwards;
 }
 
@@ -704,10 +716,10 @@ background-color:#161b21;
     background-color: white;
     position: absolute;
     height: 100%;
-    width: 15px;
+    width: 10px;
     transform: rotate(45deg);
    background-color: white;
-   filter: blur(10px);
+   filter: blur(8px);
    animation: skill6 3s linear infinite forwards;
 }
 .skills img{
@@ -848,7 +860,9 @@ transition: .5s;
 
 .projects{
     padding: 50px 0px;
-    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    position: relative;
+    z-index: 2;
 
     
 }
@@ -911,7 +925,7 @@ transition: .5s;
     background-color:#161b21;
     position: relative;
     overflow: hidden;   
-    height: 450px;
+    height: 480px;
     border: 1px solid white;
     
 }
@@ -1520,7 +1534,7 @@ header.stick li a:hover{
         background-color:#161b21;
         position: relative;
         overflow: hidden;   
-        height: 350px;
+        height: 380px;
         
     }
 
@@ -1533,7 +1547,7 @@ header.stick li a:hover{
         }
 
         .swiper{
-           height: 450px;
+           height: 500px;
         }
 
 
